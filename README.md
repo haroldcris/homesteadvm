@@ -19,7 +19,10 @@ Run the following Code:
 
 
 ```
-    name: homestead-vm    <-- change this to the name that you want to avoild collision in case you are running multiple vm
+    File: .\server-vm\homestead.yaml
+    
+    name: homestead-vm    <-- change this to the name that you want
+                              to avoild collision in case you are running multiple vm
     hostname: homestead-vm
 
 ```
