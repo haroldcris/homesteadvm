@@ -1,7 +1,9 @@
 # homesteadvm
 
 
-clone the repo by running 
+clone the repo by running.
+
+Run the following Code:
 
 git clone https://github.com/haroldcris/homesteadvm.git [destinationFolder]
 
