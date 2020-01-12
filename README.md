@@ -12,8 +12,6 @@ clone the repo:
 Run the following Code:
 
 ```
-   
-
     cd [destinationfolder]
 
     cd server-vm
