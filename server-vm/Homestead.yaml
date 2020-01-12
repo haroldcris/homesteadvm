@@ -1,0 +1,36 @@
+---
+ip: "192.168.10.11"
+memory: 2048
+cpus: 2
+provider: virtualbox
+
+name: homestead-vm
+hostname: homestead-vm
+
+authorize: ~/.ssh/id_rsa.pub
+
+keys:
+    - ~/.ssh/id_rsa
+
+folders:
+    - map: D:\temp\homesteadvm\code
+      to: /code
+      
+sites:
+    - map: homestead.test
+      to: /code/public
+      
+databases:
+    - homestead
+
+features:
+    - mariadb: false
+    - ohmyzsh: false
+    - webdriver: false
+
+# ports:
+#     - send: 50000
+#       to: 5000
+#     - send: 7777
+#       to: 777
+#       protocol: udp
