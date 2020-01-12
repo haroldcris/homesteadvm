@@ -13,7 +13,7 @@ keys:
     - ~/.ssh/id_rsa
 
 folders:
-    - map: D:\temp\homesteadvm\code
+    - map: .\..\code
       to: /code
       
 sites:
